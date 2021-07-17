@@ -38,6 +38,22 @@ function main() {
             effect: 'slideDown',  
             keyboardNav: true,                            
         });
+
+        $(".primary-banner").slick({
+          dots: false,
+          autoplay: true,
+          infinite: true,
+          nextArrow:'',
+          prevArrow:'',
+        });
+		
+        $(".secondary-banner").slick({
+          dots: false,
+          autoplay: true,
+          infinite: true,
+          nextArrow:'',
+          prevArrow:'',
+        });
 		
 }());
 
