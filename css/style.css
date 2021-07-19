@@ -155,8 +155,7 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-color: #2e4e79;
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -221,6 +220,7 @@ header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 200px;
 	text-align: center;
+	min-height: 980px;
 }
 /* Features Section */
 #features {
@@ -492,7 +492,7 @@ label {
 	padding: 6px 12px;
 	font-size: 16px;
 	line-height: 1.42857143;
-	color: #fff;
+	color: #2e4e79;
 	background-color: #fff;
 	background-image: none;
 	border: 1px solid #ddd;
@@ -510,16 +510,16 @@ label {
 	box-shadow: transparent;
 }
 .form-control::-webkit-input-placeholder {
-	color: #fff;
+	color: #2e4e79;
 }
 .form-control:-moz-placeholder {
-color: #fff;
+color: #2e4e79;
 }
 .form-control::-moz-placeholder {
-color: #fff;
+color: #2e4e79;
 }
 .form-control:-ms-input-placeholder {
-color: #fff;
+color: #2e4e79;
 }
 #contact .contact-item {
 	margin: 20px 0;
@@ -577,3 +577,18 @@ color: #fff;
 	margin: 50px 0;
 }
 }
+
+.call-us-whataspp-header-banner {
+	position: sticky;
+	width: 100%;
+	bottom: 0px;
+	background-color: #2e4e79;
+  } 
+.call-us-whataspp-header-banner a{
+	color: white;
+} 
+.call-us-whataspp-header-banner p{
+	margin-bottom: 0;
+	text-align: center;
+	padding:  5px 0;
+} 
