@@ -1,24 +1,5 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^$ /index.html [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^$ /index.html [L]
+<IfModule dir_module>
+ DirectoryIndex index.php index.html
+ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.(html|htm|php|php3|php5|shtml|phtml) [NC]
+ RewriteRule ^index\.html|htm|php|php3|php5|shtml|phtml$ / [R=301,L]
 </IfModule>
-
-# BEGIN WordPress
-# As diretrizes (linhas) entre "BEGIN WordPress" e "END WordPress" são
-# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
-# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
-RewriteRule ^$ /index.html [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^$ /index.html [L]
-</IfModule>
-
-# END WordPress
