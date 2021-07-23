@@ -44,7 +44,7 @@ function main() {
           autoplay: true,
           infinite: true,
           nextArrow:'',
-          prevArrow:'',
+          prevArrow:''
         });
 		
         $(".secondary-banner").slick({

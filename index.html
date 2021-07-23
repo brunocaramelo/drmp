@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Interact</title>
+<title>Dom Ruan Móveis</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -71,7 +71,7 @@
       <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 intro-text">
-              <h1><img src="img/banner-top/LOGODOMRUAN" style="width:650px" /></h1>
+              <h1><img src="img/banner-top/LOGODOMRUAN" style="width:80%" /></h1>
               <p>Desde 1993 Projetando e Fabricando Móveis com Qualidade<br />
                 Em até 18X Sem Juros<br />
                 
@@ -96,7 +96,7 @@
       <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 intro-text">
-              <h1><img src="img/banner-top/LOGODOMRUAN" style="width:650px" /></h1>
+              <h1><img src="img/banner-top/LOGODOMRUAN" style="width:80%" /></h1>
               <p>Solicite Orçamento sem Custo</p>
               <a href="#features" class="btn btn-custom btn-lg page-scroll">Saiba mais</a> </div>
           </div>
@@ -116,7 +116,7 @@
       <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 intro-text">
-              <h1><img src="img/banner-top/LOGODOMRUAN" style="width:650px" /></h1>
+              <h1><img src="img/banner-top/LOGODOMRUAN" style="width:80%" /></h1>
               <p>Decoresua casa conosco<br />
                 E ganhe um fogão e um Depurador
                 </p>
