@@ -405,7 +405,6 @@
       <div class="row">
         <div class="section-title">
           <h2>Contato</h2>
-          <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
         </div>
         <form name="sentMessage" id="contactForm" novalidate>
           <div class="row">
