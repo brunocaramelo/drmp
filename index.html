@@ -71,7 +71,7 @@
       <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 intro-text">
-              <h1><img src="img/banner-top/LOGODOMRUAN" style="width:80%" /></h1>
+              <h1><img src="img/banner-top/logotipo.png" style="width:80%;margin-bottom:20px" /></h1>
               <p>Desde 1993 Projetando e Fabricando Móveis com Qualidade<br />
                 Em até 18X Sem Juros<br />
                 
@@ -96,7 +96,7 @@
       <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 intro-text">
-              <h1><img src="img/banner-top/LOGODOMRUAN" style="width:80%" /></h1>
+              <h1><img src="img/banner-top/logotipo.png" style="width:80%;margin-bottom:20px" /></h1>
               <p>Solicite Orçamento sem Custo</p>
               <a href="#features" class="btn btn-custom btn-lg page-scroll">Saiba mais</a> </div>
           </div>
@@ -116,7 +116,7 @@
       <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 intro-text">
-              <h1><img src="img/banner-top/LOGODOMRUAN" style="width:80%" /></h1>
+              <h1><img src="img/banner-top/logotipo.png" style="width:80%;margin-bottom:20px" /></h1>
               <p>Decoresua casa conosco<br />
                 E ganhe um fogão e um Depurador
                 </p>
@@ -218,25 +218,13 @@
         <div class="about-text">
           <h2>About Us 1</h2>
           <p>A Dom Ruan Moveis há mais de 28 vem projetando, fabricando, entregando e montando móveis de qualidade. Cuidamos integralmente de todo o processo. Muito mais do que produzir móveis oferecemos soluções de decoração, e funcionalidade para cada espaço.</p>
-          <h3>Why Choose Us?</h3>
-          <div class="list-style">
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <ul>
-                <li>Lorem ipsum dolor</li>
-                <li>Tempor incididunt</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Incididunt ut labore</li>
-              </ul>
-            </div>
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <ul>
-                <li>Aliquip ex ea commodo</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Exercitation ullamco</li>
-                <li>Lorem ipsum dolor</li>
-              </ul>
-            </div>
+          <div class="about-text">
+            <p>
+              <a href="#portfolio"> ver galeria</a>
+            </p>
+            
           </div>
+  
         </div>
       </div>
     </div>
@@ -246,25 +234,12 @@
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
           <h2>About Us 2</h2>
-          <p>A Dom Ruan Moveis há mais de 28 vem projetando, fabricando, entregando e montando móveis de qualidade. Cuidamos integralmente de todo o processo. Muito mais do que produzir móveis oferecemos soluções de decoração, e funcionalidade para cada espaço.</p>
-          <h3>Why Choose Us?</h3>
-          <div class="list-style">
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <ul>
-                <li>Lorem ipsum dolor</li>
-                <li>Tempor incididunt</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Incididunt ut labore</li>
-              </ul>
-            </div>
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <ul>
-                <li>Aliquip ex ea commodo</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Exercitation ullamco</li>
-                <li>Lorem ipsum dolor</li>
-              </ul>
-            </div>
+          <p>Texto e imagem diferentes 2</p>
+          <div class="about-text">
+            <p>
+              <a href="#portfolio"> ver galeria</a>
+            </p>
+            
           </div>
         </div>
       </div>
@@ -275,25 +250,13 @@
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
           <h2>About Us 3</h2>
-          <p>A Dom Ruan Moveis há mais de 28 vem projetando, fabricando, entregando e montando móveis de qualidade. Cuidamos integralmente de todo o processo. Muito mais do que produzir móveis oferecemos soluções de decoração, e funcionalidade para cada espaço.</p>
-          <h3>Why Choose Us?</h3>
-          <div class="list-style">
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <ul>
-                <li>Lorem ipsum dolor</li>
-                <li>Tempor incididunt</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Incididunt ut labore</li>
-              </ul>
-            </div>
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <ul>
-                <li>Aliquip ex ea commodo</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Exercitation ullamco</li>
-                <li>Lorem ipsum dolor</li>
-              </ul>
-            </div>
+          <p>Texto e imagem diferentes 3.</p>
+          <div class="about-text">
+            <p>
+              <a href="#portfolio"> ver galeria</a>
+            </p>
+            
+          </div>
           </div>
         </div>
       </div>
