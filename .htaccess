@@ -1,24 +1,15 @@
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.php [L]
-</IfModule>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
 
-# BEGIN WordPress
-# As diretrizes (linhas) entre "BEGIN WordPress" e "END WordPress" são
-# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
-# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
+    RewriteEngine On
 
-# END WordPress
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
