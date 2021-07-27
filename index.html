@@ -20,6 +20,7 @@
 
 <!-- Stylesheet
     ================================================== -->
+
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
@@ -213,14 +214,14 @@
     <div class="lazy slider secondary-banner">
 
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6"> <img src="img/home-parts-sesssion/foto-escritorio.jpg" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <h2>About Us 1</h2>
+          <h2>DOM RUAN MOVEIS</h2>
           <p>A Dom Ruan Moveis há mais de 28 vem projetando, fabricando, entregando e montando móveis de qualidade. Cuidamos integralmente de todo o processo. Muito mais do que produzir móveis oferecemos soluções de decoração, e funcionalidade para cada espaço.</p>
           <div class="about-text">
             <p>
-              <a href="#portfolio"> ver galeria</a>
+              <a href="javascript:void(0);" onclick="scrollAndOpenGallery('dom-ruan-gallery');"> ver galeria</a>
             </p>
             
           </div>
@@ -230,14 +231,16 @@
     </div>
     
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6"> <img src="img/home-parts-sesssion/foto-cozinha.jpg" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <h2>About Us 2</h2>
-          <p>Texto e imagem diferentes 2</p>
+          <h2>Cozinhas</h2>
+          <p>Centro do seu lar, onde se prepara amor.
+            Fotos da cozinha se possível rotativa
+          </p>
           <div class="about-text">
             <p>
-              <a href="#portfolio"> ver galeria</a>
+              <a href="javascript:void(0);" onclick="scrollAndOpenGallery('cozinha-gallery');"> ver galeria</a>
             </p>
             
           </div>
@@ -246,11 +249,12 @@
     </div>
 
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6"> <img src="img/home-parts-sesssion/foto-quarto.jpg" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <h2>About Us 3</h2>
-          <p>Texto e imagem diferentes 3.</p>
+          <h2>Dormitórios</h2>
+          <p>O lugar onde você constrói os seus sonhos merece um lugar especial
+            Fotos da cozinha se possível rotativa.</p>
           <div class="about-text">
             <p>
               <a href="#portfolio"> ver galeria</a>
@@ -260,6 +264,40 @@
           </div>
         </div>
       </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="img/home-parts-sesssion/foto-closet.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <h2>Closet</h2>
+          <p>Cada coisa em seu lugar.</p>
+          <div class="about-text">
+            <p>
+              <a href="#portfolio"> ver galeria</a>
+            </p>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="img/home-parts-sesssion/foto-banheiro.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <h2>Banheiros</h2>
+          <p>Para entrar em contato consigo mesmo, com mais estilo.</p>
+          <div class="about-text">
+            <p>
+              <a href="#portfolio"> ver galeria</a>
+            </p>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
     
   </div>
@@ -267,99 +305,102 @@
   </div>
 </div>
 <!-- Gallery Section -->
-<div id="portfolio" class="text-center">
+
+<div id="dom-ruan-gallery" class="text-center gallery-toogle">
   <div class="container">
     <div class="section-title">
       <h2>Galeria</h2>
       <p>Conheça alguns de nossos projetos.</p>
     </div>
+    
     <div class="row">
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/galleries/corporativo/corporativo-01.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Lorem Ipsum</h4>
               </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/galleries/corporativo/corporativo-01.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/galleries/corporativo/corporativo-02.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Adipiscing Elit</h4>
               </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/galleries/corporativo/corporativo-02.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/galleries/corporativo/corporativo-03.jpg" title="Project Title" data-lightbox-gallery="gallery1"></a>
               <div class="hover-text">
-                <h4>Lorem Ipsum</h4>
               </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/galleries/corporativo/corporativo-03.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/galleries/corporativo/corporativo-04.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Lorem Ipsum</h4>
               </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/galleries/corporativo/corporativo-04.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Adipiscing Elit</h4>
-              </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dolor Sit</h4>
-              </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dolor Sit</h4>
-              </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Lorem Ipsum</h4>
-              </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Adipiscing Elit</h4>
-              </div>
-              <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
+    
       </div>
     </div>
   </div>
 </div>
+
+<div id="cozinha-gallery" class="text-center gallery-toogle" style="display:none">
+  <div class="container">
+    <div class="section-title">
+      <h2>Galeria</h2>
+      <p>Conheça alguns de nossos projetos.</p>
+    </div>
+    
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/galleries/cozinhas/cozinha-01.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+              </div>
+              <img src="img/galleries/cozinhas/cozinha-01.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/galleries/cozinhas/cozinha-02.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+              </div>
+              <img src="img/galleries/cozinhas/cozinha-02.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/galleries/cozinhas/cozinha-03.jpg" title="Project Title" data-lightbox-gallery="gallery1"></a>
+              <div class="hover-text">
+              </div>
+              <img src="img/galleries/cozinhas/cozinha-03.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/galleries/cozinhas/cozinha-04.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+              </div>
+              <img src="img/galleries/cozinhas/cozinha-04.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  </div>
+  
+
 <!-- Testimonials Section -->
 <!-- Contact Section -->
 <div id="contact">
