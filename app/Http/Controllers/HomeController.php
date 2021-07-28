@@ -33,8 +33,8 @@ class HomeController extends Controller
                 'paragraph' => 'cozinha-gallery',
                 'label' => 'Móveis para cozinha',
                 'thumbnails_images' => array_map(function($filename) {
-                    return '/img/galleries/cozinhas/original/' . basename($filename);
-                }, \File::glob(public_path() . '/img/galleries/cozinhas/original/*.*')),
+                    return '/img/galleries/cozinhas/thumb/' . basename($filename);
+                }, \File::glob(public_path() . '/img/galleries/cozinhas/thumb/*.*')),
                 'original_images' => array_map(function($filename) {
                     return '/img/galleries/cozinhas/original/' . basename($filename);
                 }, \File::glob(public_path() . '/img/galleries/cozinhas/original/*.*')),
@@ -44,8 +44,8 @@ class HomeController extends Controller
                 'paragraph' => 'quartos-gallery',
                 'label' => 'Móveis para quartos',
                 'thumbnails_images' => array_map(function($filename) {
-                    return '/img/galleries/quartos/original/' . basename($filename);
-                }, \File::glob(public_path() . '/img/galleries/quartos/original/*.*')),
+                    return '/img/galleries/quartos/thumb/' . basename($filename);
+                }, \File::glob(public_path() . '/img/galleries/quartos/thumb/*.*')),
                 'original_images' => array_map(function($filename) {
                     return '/img/galleries/quartos/original/' . basename($filename);
                 }, \File::glob(public_path() . '/img/galleries/quartos/original/*.*')),
@@ -55,8 +55,8 @@ class HomeController extends Controller
                 'paragraph' => 'closets-gallery',
                 'label' => 'Móveis para Closets',
                 'thumbnails_images' => array_map(function($filename) {
-                    return '/img/galleries/closets/original/' . basename($filename);
-                }, \File::glob(public_path() . '/img/galleries/closets/original/*.*')),
+                    return '/img/galleries/closets/thumb/' . basename($filename);
+                }, \File::glob(public_path() . '/img/galleries/closets/thumb/*.*')),
                 'original_images' => array_map(function($filename) {
                     return '/img/galleries/closets/original/' . basename($filename);
                 }, \File::glob(public_path() . '/img/galleries/closets/original/*.*')),
@@ -66,8 +66,8 @@ class HomeController extends Controller
                 'paragraph' => 'banheiros-gallery',
                 'label' => 'Móveis para Banheiros',
                 'thumbnails_images' => array_map(function($filename) {
-                    return '/img/galleries/banheiros/original/' . basename($filename);
-                }, \File::glob(public_path() . '/img/galleries/banheiros/original/*.*')),
+                    return '/img/galleries/banheiros/thumb/' . basename($filename);
+                }, \File::glob(public_path() . '/img/galleries/banheiros/thumb/*.*')),
                 'original_images' => array_map(function($filename) {
                     return '/img/galleries/banheiros/original/' . basename($filename);
                 }, \File::glob(public_path() . '/img/galleries/banheiros/original/*.*')),
