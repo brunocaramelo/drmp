@@ -257,7 +257,7 @@
             Fotos da cozinha se possível rotativa.</p>
           <div class="about-text">
             <p>
-              <a href="#portfolio"> ver galeria</a>
+                <a href="javascript:void(0);" onclick="scrollAndOpenGallery('quartos-gallery');"> ver galeria</a>
             </p>
 
           </div>
@@ -273,7 +273,7 @@
           <p>Cada coisa em seu lugar.</p>
           <div class="about-text">
             <p>
-              <a href="#portfolio"> ver galeria</a>
+                <a href="javascript:void(0);" onclick="scrollAndOpenGallery('closets-gallery');"> ver galeria</a>
             </p>
 
           </div>
@@ -289,7 +289,7 @@
           <p>Para entrar em contato consigo mesmo, com mais estilo.</p>
           <div class="about-text">
             <p>
-              <a href="#portfolio"> ver galeria</a>
+                <a href="javascript:void(0);" onclick="scrollAndOpenGallery('banheiros-gallery');"> ver galeria</a>
             </p>
 
           </div>
@@ -305,8 +305,8 @@
   </div>
 </div>
 <!-- Gallery Section -->
-
-<div id="dom-ruan-gallery" class="text-center gallery-toogle">
+@foreach ($galleries as $indexGaleria => $gallery)
+<div id="{{$gallery['block_id']}}" class="text-center gallery-toogle"  style="@if($indexGaleria !='corporativo' )display:none; @endif margin-bottom:100px">
   <div class="container">
     <div class="section-title">
       <h2>Galeria</h2>
@@ -315,90 +315,24 @@
 
     <div class="row">
       <div class="portfolio-items">
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/galleries/corporativo/corporativo-01.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-              </div>
-              <img src="img/galleries/corporativo/corporativo-01.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/galleries/corporativo/corporativo-02.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-              </div>
-              <img src="img/galleries/corporativo/corporativo-02.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/galleries/corporativo/corporativo-03.jpg" title="Project Title" data-lightbox-gallery="gallery1"></a>
-              <div class="hover-text">
-              </div>
-              <img src="img/galleries/corporativo/corporativo-03.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/galleries/corporativo/corporativo-04.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-              </div>
-              <img src="img/galleries/corporativo/corporativo-04.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
-          </div>
-        </div>
+
+        @foreach ($gallery['original_images'] as $gallIndex => $gallValue)
+            <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="portfolio-item">
+                <div class="hover-bg"> <a href="{{$gallValue}}" title="{{$gallery['label']}}" data-lightbox-gallery="gallery1">
+                <div class="hover-text">
+                </div>
+                <img src="{{$gallery['thumbnails_images'][$gallIndex] }}" class="img-responsive" alt="{{$gallery['label']}}" style="height:300px;width:400px;"> </a> </div>
+            </div>
+            </div>
+        @endforeach
 
       </div>
     </div>
   </div>
 </div>
+@endforeach
 
-<div id="cozinha-gallery" class="text-center gallery-toogle" style="display:none">
-  <div class="container">
-    <div class="section-title">
-      <h2>Galeria</h2>
-      <p>Conheça alguns de nossos projetos.</p>
-    </div>
-
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/galleries/cozinhas/cozinha-01.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-              </div>
-              <img src="img/galleries/cozinhas/cozinha-01.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/galleries/cozinhas/cozinha-02.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-              </div>
-              <img src="img/galleries/cozinhas/cozinha-02.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/galleries/cozinhas/cozinha-03.jpg" title="Project Title" data-lightbox-gallery="gallery1"></a>
-              <div class="hover-text">
-              </div>
-              <img src="img/galleries/cozinhas/cozinha-03.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/galleries/cozinhas/cozinha-04.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-              </div>
-              <img src="img/galleries/cozinhas/cozinha-04.jpg" class="img-responsive" alt="Project Title" style="height:200px;width:400px;"> </a> </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  </div>
 
 
 <!-- Testimonials Section -->
