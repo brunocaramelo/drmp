@@ -29,6 +29,7 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
 <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -410,6 +411,11 @@
     </div>
   </div>
 </div>
+
+<a href="https://api.whatsapp.com/send?phone=554891288004&text=Solicito um orcamento." class="float-whatsapp" target="_blank">
+    <i class="fa fa-whatsapp my-float-whatsapp"></i>
+</a>
+
 <!-- Footer Section -->
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
