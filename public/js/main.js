@@ -3,7 +3,7 @@ function main() {
 
 (function () {
    'use strict';
-   
+
   	$('a.page-scroll').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -18,7 +18,7 @@ function main() {
       });
 
 
-    $('body').scrollspy({ 
+    $('body').scrollspy({
         target: '.navbar-default',
         offset: 80
     });
@@ -31,12 +31,16 @@ function main() {
       $(".navbar-collapse").collapse('hide');
     }
   });
-	
-	
-    // Nivo Lightbox 
+
+  $("#whatsapp_phone").inputmask({
+    mask: ["(99) 9999-9999", "(99) 99999-9999", ],
+    keepStatic: true
+  });
+
+    // Nivo Lightbox
     $('.portfolio-item a').nivoLightbox({
-            effect: 'slideDown',  
-            keyboardNav: true,                            
+            effect: 'slideDown',
+            keyboardNav: true,
         });
 
         $(".primary-banner").slick({
@@ -46,7 +50,7 @@ function main() {
           nextArrow:'',
           prevArrow:''
         });
-		
+
         $(".secondary-banner").slick({
           dots: false,
           autoplay: true,
@@ -54,7 +58,7 @@ function main() {
           nextArrow:'',
           prevArrow:''
         });
-		
+
 }());
 
 
@@ -62,7 +66,7 @@ function main() {
 main();
 
 function scrollAndOpenGallery(elementId) {
-  
+
   $('.gallery-toogle').hide()
   $('#'+elementId).show()
 

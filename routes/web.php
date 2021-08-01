@@ -16,3 +16,8 @@ Route::get('/',
 [ 'as' => 'home',
 'uses' => 'HomeController@index'
 ]);
+
+Route::post('/contact',
+[ 'as' => 'send-contact-form',
+'uses' => 'ContactController@sendContact'
+]);

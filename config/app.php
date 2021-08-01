@@ -56,6 +56,10 @@ return [
 
     'asset_url' => env('ASSET_URL', null),
 
+    'mail' => [
+        'attendance_address' => env('MAIL_DEFAULT_TO', 'neimergulho@hotmail.com')
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone

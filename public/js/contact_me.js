@@ -9,19 +9,23 @@ $(function() {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
-            var email = $("input#email").val();
+            var whatsapp_phone = $("input#whatsapp_phone").val();
             var message = $("textarea#message").val();
-            var firstName = name; // For Success/Failure Message
-            // Check for white space in name for Success/Fail message
-            if (firstName.indexOf(' ') >= 0) {
-                firstName = name.split(' ').slice(0, -1).join(' ');
-            }
+            var state = $("input#state").val();
+            var city = $("input#city").val();
+
+
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "/contact",
                 type: "POST",
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
                 data: {
                     name: name,
-                    email: email,
+                    whatsapp_phone: whatsapp_phone,
+                    state: state,
+                    city: city,
                     message: message
                 },
                 cache: false,

@@ -6,7 +6,7 @@
 <title>Dom Ruan Móveis</title>
 <meta name="description" content="">
 <meta name="author" content="">
-
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <!-- Favicons
     ================================================== -->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -79,17 +79,11 @@
 
                 *No cartão de Crédito
               </p>
-              <a href="#features" class="btn btn-custom btn-lg page-scroll">Saiba mais</a> </div>
+              <a href="https://api.whatsapp.com/send?phone=554891288004&text=Solicito um orcamento." class="btn btn-custom btn-lg page-scroll">SOLICITE UM ORCAMENTO SEM CUSTOS <i class="fa fa-whatsapp"></i></a> </div>
           </div>
         </div>
       </div>
-      <div class ="call-us-whataspp-header-banner">
-        <div class="container">
-          <div class="row">
-            <p><a href="https://api.whatsapp.com/send?phone=554891288004&text=Solicito um orcamento." target="_blank"><strong>SOLICITE UM ORCAMENTO SEM CUSTOS</strong>&nbsp;<img src="img/banner-top/whatsapp.png" style="margin-top: -5px;width: 20px;display: inline-block;"></a></p>
-          </div>
-        </div>
-      </div>
+
     </div>
 
 
@@ -100,17 +94,11 @@
             <div class="col-md-8 col-md-offset-2 intro-text">
               <h1><img src="img/banner-top/logotipo.png" style="width:80%;margin-bottom:20px" /></h1>
               <p>Solicite Orçamento sem Custo</p>
-              <a href="#features" class="btn btn-custom btn-lg page-scroll">Saiba mais</a> </div>
+              <a href="https://api.whatsapp.com/send?phone=554891288004&text=Solicito um orcamento." class="btn btn-custom btn-lg page-scroll">SOLICITE UM ORCAMENTO SEM CUSTOS <i class="fa fa-whatsapp"></i></a> </div>
           </div>
         </div>
       </div>
-      <div class ="call-us-whataspp-header-banner">
-        <div class="container">
-          <div class="row">
-            <p><a href="https://api.whatsapp.com/send?phone=554891288004&text=Solicito um orcamento." target="_blank"><strong>SOLICITE UM ORCAMENTO SEM CUSTOS</strong>&nbsp;<img src="img/banner-top/whatsapp.png" style="margin-top: -5px;width: 20px;display: inline-block;"></a></p>
-          </div>
-        </div>
-      </div>
+
     </div>
 
   <div class="intro" style="background-image: url(img/banner-top/SESSAO1_BANNER3.jpg);">
@@ -122,15 +110,8 @@
               <p>Decoresua casa conosco<br />
                 E ganhe um fogão e um Depurador
                 </p>
-              <a href="#features" class="btn btn-custom btn-lg page-scroll">Saiba mais</a> </div>
+              <a href="https://api.whatsapp.com/send?phone=554891288004&text=Solicito um orcamento." class="btn btn-custom btn-lg page-scroll">SOLICITE UM ORCAMENTO SEM CUSTOS <i class="fa fa-whatsapp"></i></a> </div>
           </div>
-      </div>
-    </div>
-    <div class ="call-us-whataspp-header-banner">
-      <div class="container">
-        <div class="row">
-          <p><a href="https://api.whatsapp.com/send?phone=554891288004&text=Solicito um orcamento." target="_blank"><strong>SOLICITE UM ORCAMENTO SEM CUSTOS</strong>&nbsp;<img src="img/banner-top/whatsapp.png" style="margin-top: -5px;width: 20px;display: inline-block;"></a></p>
-        </div>
       </div>
     </div>
     </div>
@@ -378,6 +359,7 @@
 
           <div class="form-group">
             <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensagem" required></textarea>
+            <input type="hidden" name="_token" value="{{ csrf_token() }}" />
             <p class="help-block text-danger"></p>
           </div>
           <div id="success"></div>
@@ -403,8 +385,8 @@
         <div class="social">
           <ul>
             <li><a href="https://www.facebook.com/domruanmoveis"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="@domruanmoveis"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="048-9128-8004"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="https://instagram.com/domruanmoveis"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=554891288004&text=Contato via site"><i class="fa fa-whatsapp"></i></a></li>
           </ul>
         </div>
       </div>
@@ -412,9 +394,6 @@
   </div>
 </div>
 
-<a href="https://api.whatsapp.com/send?phone=554891288004&text=Solicito um orcamento." class="float-whatsapp" target="_blank">
-    <i class="fa fa-whatsapp my-float-whatsapp"></i>
-</a>
 
 <!-- Footer Section -->
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
@@ -424,6 +403,7 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
 <script type="text/javascript" src="js/contact_me.js"></script>
 <script src="js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
