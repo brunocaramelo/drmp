@@ -374,8 +374,8 @@
       </div>
       <div class="contact-item">
         <p><span><i class="fa fa-envelope-o"></i> Email</span> info@company.com</p>
-      </div>
-    </div -->
+      </div -->
+    </div>
     <div class="col-md-12">
       <div class="row">
         <div class="social">
