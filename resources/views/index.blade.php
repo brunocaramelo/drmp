@@ -369,13 +369,13 @@
         <p><span><i class="fa fa-map-marker"></i> Endereço</span>Servidão sabadini Galpão 2 e 3,<br>
           Palhoça-SC</p>
       </div>
-      <div class="contact-item">
+      <!-- div class="contact-item">
         <p><span><i class="fa fa-phone"></i> Phone</span> +1 123 456 1234</p>
       </div>
       <div class="contact-item">
         <p><span><i class="fa fa-envelope-o"></i> Email</span> info@company.com</p>
       </div>
-    </div>
+    </div -->
     <div class="col-md-12">
       <div class="row">
         <div class="social">
